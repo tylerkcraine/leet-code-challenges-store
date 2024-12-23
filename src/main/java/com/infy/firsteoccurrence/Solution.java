@@ -1,7 +1,6 @@
 package com.infy.firsteoccurrence;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class Solution {
     public int firstReoccurrence(int[] nums) {
@@ -15,7 +14,10 @@ public class Solution {
             }
             repeatSet.put(nums[i], i);
         }
-        
+
+        if (minIndex == null) {
+            return -1;
+        }
         return minIndex;
     }
 }

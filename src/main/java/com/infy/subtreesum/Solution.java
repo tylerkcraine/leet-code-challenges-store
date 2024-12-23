@@ -1,10 +1,7 @@
 package com.infy.subtreesum;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Optional;
-import java.util.stream.IntStream;
 
 class Solution {
     public int[] findFrequentTreeSum(TreeNode root) {

@@ -1,7 +1,6 @@
 package com.infy.reoccuringprime;
 
 import java.util.*;
-import java.util.stream.LongStream;
 
 class Solution {
     static final Map<String,int[]> directionStep = Map.of(

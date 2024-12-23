@@ -9,8 +9,7 @@ class Solution {
     public int minimumSum(int num) {
         String splitString = Integer.toString(num);
         String[] stringArr = splitString.split("");
-        int result = calcMin(Arrays.stream(stringArr).toList());
-        return result;
+        return calcMin(Arrays.stream(stringArr).toList());
     }
 
     public int calcMin(List<String> arr) {
